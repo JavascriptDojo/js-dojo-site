@@ -1,11 +1,11 @@
 {
-  "name": "abacus-learning-lab",
+  "name": "js-dojo-site",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-  "author": "Nobuyuki Fujioka",
+  "author": "js-dojo",
   "dependencies": {
     "body-parser": "~1.15.1",
     "chai": "^3.5.0",
