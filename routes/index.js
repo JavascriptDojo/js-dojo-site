@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Abacus Learning Lab', user: req.user, anyArray: [10,20,'Hello'] });
+  res.render('index', { title: 'JavaScript Dojo', user: req.user, anyArray: [10,20,'Hello'] });
   if (req.user) res.redirect('/dashboard');
 });
 
